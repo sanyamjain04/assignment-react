@@ -14,7 +14,7 @@ export const JokeSection = () => {
           There was an Error Loading Your Joke
         </p>
       ) : (
-        <Joke joke={data?.data.data} />
+        <Joke joke={data?.data} />
       )}
     </ErrorBoundary>
   );
